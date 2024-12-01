@@ -1,0 +1,14 @@
+name = "hono-auth-test"
+main = "src/index.ts"
+compatibility_date = "2024-11-22"
+
+
+# compatibility_flags = [ "nodejs_compat" ]
+[[d1_databases]]
+binding = "DB"
+database_name = ""
+database_id = ""
+migrations_dir = "drizzle/migrations"
+
+[vars]
+JWT_SECRET = "3st3r-s3cr3t-k3y"
